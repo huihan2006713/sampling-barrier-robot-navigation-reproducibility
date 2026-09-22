@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""按审阅意见重绘四图：
-图1 右图加 SRCBF/CAP 毫米级放大内嵌图；全线换区分标记/线型；
-图2 不同线型+标记，避免线条互相遮挡；
-图3 修轴标签重叠/空白/αΔ=1 标签遮格；右图对数色标；
-图4 修 x 轴标签截断；图例与题注配合（CBF/SCBF 未显示说明放题注）。"""
 import json
 import numpy as np
 import matplotlib
