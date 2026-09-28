@@ -1,0 +1,66 @@
+{
+  "1.7|0.5|SRCBF": {
+    "n": 20,
+    "arrived": 0,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 20,
+    "worst_clearance": 9.585662377298299e-06
+  },
+  "1.7|0.5|CAP": {
+    "n": 20,
+    "arrived": 0,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 20,
+    "worst_clearance": 0.00017045722818886944
+  },
+  "1.7|0.8|SRCBF": {
+    "n": 20,
+    "arrived": 0,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 20,
+    "worst_clearance": 4.407762953739791e-06
+  },
+  "1.7|0.8|CAP": {
+    "n": 20,
+    "arrived": 0,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 20,
+    "worst_clearance": 9.129458267731483e-05
+  },
+  "2.4|0.5|SRCBF": {
+    "n": 20,
+    "arrived": 20,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.15640374247367472
+  },
+  "2.4|0.5|CAP": {
+    "n": 20,
+    "arrived": 20,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.10842809994474811
+  },
+  "2.4|0.8|SRCBF": {
+    "n": 20,
+    "arrived": 20,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.2074296726719782
+  },
+  "2.4|0.8|CAP": {
+    "n": 20,
+    "arrived": 20,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.1966634616826245
+  }
+}

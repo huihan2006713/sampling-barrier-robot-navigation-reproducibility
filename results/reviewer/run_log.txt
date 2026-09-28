@@ -1,0 +1,241 @@
+{
+  "baseline": {
+    "0.2|SRCBF": {
+      "n": 80,
+      "arrived": 80,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": 0.006250380083419049
+    },
+    "0.2|CAP": {
+      "n": 80,
+      "arrived": 80,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": 0.002792575473496095
+    },
+    "0.2|MPC-CBF-3": {
+      "n": 80,
+      "arrived": 80,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": 0.042539710586254165
+    },
+    "0.5|SRCBF": {
+      "n": 80,
+      "arrived": 80,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": 0.009898832410143332
+    },
+    "0.5|CAP": {
+      "n": 80,
+      "arrived": 80,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": 0.0009438641336921849
+    },
+    "0.5|MPC-CBF-3": {
+      "n": 80,
+      "arrived": 80,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": 0.1348719727356913
+    },
+    "0.8|SRCBF": {
+      "n": 80,
+      "arrived": 80,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": 0.012933064121665061
+    },
+    "0.8|CAP": {
+      "n": 80,
+      "arrived": 80,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": 0.0029356547804951783
+    },
+    "0.8|MPC-CBF-3": {
+      "n": 80,
+      "arrived": 12,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 68,
+      "worst_clearance": 0.21029723400529976
+    }
+  },
+  "multi": {
+    "1.7|0.5|SRCBF": {
+      "n": 20,
+      "arrived": 0,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 20,
+      "worst_clearance": 9.585662377298299e-06
+    },
+    "1.7|0.5|CAP": {
+      "n": 20,
+      "arrived": 0,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 20,
+      "worst_clearance": 0.00017045722818886944
+    },
+    "1.7|0.8|SRCBF": {
+      "n": 20,
+      "arrived": 0,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 20,
+      "worst_clearance": 4.407762953739791e-06
+    },
+    "1.7|0.8|CAP": {
+      "n": 20,
+      "arrived": 0,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 20,
+      "worst_clearance": 9.129458267731483e-05
+    },
+    "2.4|0.5|SRCBF": {
+      "n": 20,
+      "arrived": 20,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": 0.15640374247367472
+    },
+    "2.4|0.5|CAP": {
+      "n": 20,
+      "arrived": 20,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": 0.10842809994474811
+    },
+    "2.4|0.8|SRCBF": {
+      "n": 20,
+      "arrived": 20,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": 0.2074296726719782
+    },
+    "2.4|0.8|CAP": {
+      "n": 20,
+      "arrived": 20,
+      "violations": 0,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": 0.1966634616826245
+    }
+  },
+  "lag": {
+    "0.1|0.2|SRCBF": {
+      "n": 80,
+      "arrived": 42,
+      "violations": 38,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": -0.017636621142204212
+    },
+    "0.1|0.2|CAP": {
+      "n": 80,
+      "arrived": 16,
+      "violations": 64,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": -0.07153520434372518
+    },
+    "0.1|0.5|SRCBF": {
+      "n": 80,
+      "arrived": 30,
+      "violations": 50,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": -0.10253565932476827
+    },
+    "0.1|0.5|CAP": {
+      "n": 80,
+      "arrived": 10,
+      "violations": 70,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": -0.15421314953778364
+    },
+    "0.1|0.8|SRCBF": {
+      "n": 80,
+      "arrived": 20,
+      "violations": 60,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": -0.13268697398714058
+    },
+    "0.1|0.8|CAP": {
+      "n": 80,
+      "arrived": 12,
+      "violations": 68,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": -0.1795304280501262
+    },
+    "0.3|0.2|SRCBF": {
+      "n": 80,
+      "arrived": 8,
+      "violations": 72,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": -0.07191240584967806
+    },
+    "0.3|0.2|CAP": {
+      "n": 80,
+      "arrived": 3,
+      "violations": 77,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": -0.10058943435715328
+    },
+    "0.3|0.5|SRCBF": {
+      "n": 80,
+      "arrived": 11,
+      "violations": 69,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": -0.14443015055485497
+    },
+    "0.3|0.5|CAP": {
+      "n": 80,
+      "arrived": 3,
+      "violations": 77,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": -0.22615470080035627
+    },
+    "0.3|0.8|SRCBF": {
+      "n": 80,
+      "arrived": 13,
+      "violations": 67,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": -0.2399720460032272
+    },
+    "0.3|0.8|CAP": {
+      "n": 80,
+      "arrived": 8,
+      "violations": 72,
+      "infeasible": 0,
+      "timeouts": 0,
+      "worst_clearance": -0.26751387226951795
+    }
+  }
+}
+uncertainty groups 48 runs 3840 baseline runs 720 two-obstacle runs 160 velocity-servo runs 960

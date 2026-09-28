@@ -1,0 +1,98 @@
+{
+  "0.1|0.2|SRCBF": {
+    "n": 80,
+    "arrived": 42,
+    "violations": 38,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.017636621142204212
+  },
+  "0.1|0.2|CAP": {
+    "n": 80,
+    "arrived": 16,
+    "violations": 64,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.07153520434372518
+  },
+  "0.1|0.5|SRCBF": {
+    "n": 80,
+    "arrived": 30,
+    "violations": 50,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.10253565932476827
+  },
+  "0.1|0.5|CAP": {
+    "n": 80,
+    "arrived": 10,
+    "violations": 70,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.15421314953778364
+  },
+  "0.1|0.8|SRCBF": {
+    "n": 80,
+    "arrived": 20,
+    "violations": 60,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.13268697398714058
+  },
+  "0.1|0.8|CAP": {
+    "n": 80,
+    "arrived": 12,
+    "violations": 68,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.1795304280501262
+  },
+  "0.3|0.2|SRCBF": {
+    "n": 80,
+    "arrived": 8,
+    "violations": 72,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.07191240584967806
+  },
+  "0.3|0.2|CAP": {
+    "n": 80,
+    "arrived": 3,
+    "violations": 77,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.10058943435715328
+  },
+  "0.3|0.5|SRCBF": {
+    "n": 80,
+    "arrived": 11,
+    "violations": 69,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.14443015055485497
+  },
+  "0.3|0.5|CAP": {
+    "n": 80,
+    "arrived": 3,
+    "violations": 77,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.22615470080035627
+  },
+  "0.3|0.8|SRCBF": {
+    "n": 80,
+    "arrived": 13,
+    "violations": 67,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.2399720460032272
+  },
+  "0.3|0.8|CAP": {
+    "n": 80,
+    "arrived": 8,
+    "violations": 72,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.26751387226951795
+  }
+}

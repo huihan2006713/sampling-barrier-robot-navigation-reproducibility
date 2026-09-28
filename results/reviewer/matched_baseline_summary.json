@@ -1,0 +1,74 @@
+{
+  "0.2|SRCBF": {
+    "n": 80,
+    "arrived": 80,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.006250380083419049
+  },
+  "0.2|CAP": {
+    "n": 80,
+    "arrived": 80,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.002792575473496095
+  },
+  "0.2|MPC-CBF-3": {
+    "n": 80,
+    "arrived": 80,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.042539710586254165
+  },
+  "0.5|SRCBF": {
+    "n": 80,
+    "arrived": 80,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.009898832410143332
+  },
+  "0.5|CAP": {
+    "n": 80,
+    "arrived": 80,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.0009438641336921849
+  },
+  "0.5|MPC-CBF-3": {
+    "n": 80,
+    "arrived": 80,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.1348719727356913
+  },
+  "0.8|SRCBF": {
+    "n": 80,
+    "arrived": 80,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.012933064121665061
+  },
+  "0.8|CAP": {
+    "n": 80,
+    "arrived": 80,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.0029356547804951783
+  },
+  "0.8|MPC-CBF-3": {
+    "n": 80,
+    "arrived": 12,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 68,
+    "worst_clearance": 0.21029723400529976
+  }
+}
