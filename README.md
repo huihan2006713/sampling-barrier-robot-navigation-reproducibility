@@ -27,6 +27,9 @@ barrier-filtered mobile robot navigation".
 - `reviewer_multifield.py` — static 3- and 5-obstacle random fields with a
   declared tangent escape heuristic. Run `python reviewer_multifield.py`;
   trial records and summaries go to `results/reviewer/random_static_field_*`.
+- `reviewer_servo_filter.py` — one-step servo-aware supporting-plane filter
+  with an outward recovery check. Run `python reviewer_servo_filter.py`;
+  trial records and summaries go to `results/reviewer/servo_aware_*`.
 - `results/` — per-trial records, aggregate summaries, traces and figures.
 
 ### Environment
@@ -47,6 +50,7 @@ python regen_figs.py
 python reviewer_experiments.py
 python reviewer_timing.py
 python reviewer_multifield.py
+python reviewer_servo_filter.py
 python reviewer_figs.py
 ```
 The printed summaries reproduce Tables 3–4 and Figures 1–4 of the paper.
@@ -96,6 +100,20 @@ exponential phases have exact state updates. Clearance is minimized over the
 quadratic saturated phase and over all bracketed stationary points of the
 exponential phase. The paper's first-order safety proof does not apply to
 this model.
+
+The additional servo-aware controller measures both position and actual
+velocity, assumes exact servo time constant and acceleration limit, and uses
+the continuous minimum of a supporting-plane clearance bound for the next
+hold. It also checks a two-second full-speed outward recovery from the
+predicted end state under worst inward disturbance along the frozen plane.
+SLSQP chooses a velocity command close to the unmodified filter output; an
+outward command is used if the numerical solve fails and is itself checked.
+The code records every uncertifiable update and asserts the checked lower
+bound at every certified update. The 0.50 s, 0.10/0.30 s servo tests have no
+uncertifiable update and no observed violation in 80 paired cases per filter
+and time constant. This is a model-specific, one-step calculation with a
+tested backup condition; no recursive-feasibility or real-hardware claim is
+made. The 0.30 s cases have a small worst empirical clearance, about 0.025 mm.
 
 The update-jitter experiment uses a nominal 0.50 s schedule with independent
 uniform jitter of ±0.10 s and a 0.10 probability of a missed controller

@@ -1,0 +1,13 @@
+{
+  "dt": 0.5,
+  "tau_v": [
+    0.1,
+    0.3
+  ],
+  "acceleration_limit": 2.0,
+  "state": "True current position and servo velocity, exactly known parameters",
+  "constraint": "Continuous minimum of current frozen supporting-plane clearance under n\u00b7d >= -D, plus a two-second full-speed outward recovery using the same plane and worst inward disturbance",
+  "fallback": "Full-speed radial outward command if SLSQP cannot find a checked feasible command",
+  "uncertifiable": "If even the outward command violates the one-step lower bound, this test counts an uncertifiable update and still simulates that command",
+  "limitation": "One-step calculation and backup heuristic under exactly known servo parameters; no recursive feasibility proof, hardware, localization uncertainty or wheel dynamics"
+}
