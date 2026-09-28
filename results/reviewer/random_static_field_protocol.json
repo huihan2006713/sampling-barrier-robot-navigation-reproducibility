@@ -1,0 +1,9 @@
+{
+  "centers": "x equally spaced on [1.8, 4.2], y independent uniform [-1.25, 1.25]",
+  "start": "(0, uniform[-0.08, 0.08])",
+  "seeds": "0..19; RNG seed 12000 + 100*count + seed",
+  "dt": 0.5,
+  "disturbance": "constant bias of magnitude 0.12 m/s",
+  "escape": "After three steps of <5 mm x progress, use six steps of a tangent command around the nearest center; no global planner.",
+  "limitation": "Static random circles may overlap; no feasibility or deadlock-avoidance guarantee."
+}

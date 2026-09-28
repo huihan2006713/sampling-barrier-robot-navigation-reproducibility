@@ -1,0 +1,66 @@
+{
+  "3|SRCBF|0": {
+    "n": 20,
+    "arrived": 17,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 3,
+    "worst_clearance": 0.0002221185063249198
+  },
+  "3|SRCBF|1": {
+    "n": 20,
+    "arrived": 18,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 2,
+    "worst_clearance": 0.0002221185063249198
+  },
+  "3|CAP|0": {
+    "n": 20,
+    "arrived": 17,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 3,
+    "worst_clearance": 4.6140654627602196e-05
+  },
+  "3|CAP|1": {
+    "n": 20,
+    "arrived": 18,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 2,
+    "worst_clearance": 4.6140654627602196e-05
+  },
+  "5|SRCBF|0": {
+    "n": 20,
+    "arrived": 7,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 13,
+    "worst_clearance": 4.8866082648091336e-06
+  },
+  "5|SRCBF|1": {
+    "n": 20,
+    "arrived": 9,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 11,
+    "worst_clearance": 5.8981715435058035e-05
+  },
+  "5|CAP|0": {
+    "n": 20,
+    "arrived": 7,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 13,
+    "worst_clearance": 4.8524618319945034e-05
+  },
+  "5|CAP|1": {
+    "n": 20,
+    "arrived": 10,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 10,
+    "worst_clearance": 4.807558493669095e-05
+  }
+}

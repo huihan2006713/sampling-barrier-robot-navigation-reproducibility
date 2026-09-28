@@ -1,0 +1,10 @@
+{
+  "nominal_dt": 0.5,
+  "design_horizon": 0.6,
+  "jitter_bound": 0.1,
+  "loss_probability": 0.1,
+  "disturbance_bound": 0.12,
+  "schedule_seed_rule": "9000 + seed + 100*(offset>0.3) + 1000*(regime==inward)",
+  "missed_update": "No filter update: hold, issue zero velocity, or issue a local outward command using a fresh position measurement.",
+  "note": "Synthetic, paired, ideal velocity actuation; no physical or embedded timing data."
+}

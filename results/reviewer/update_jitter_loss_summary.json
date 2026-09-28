@@ -1,0 +1,50 @@
+{
+  "SRCBF|hold_previous": {
+    "n": 80,
+    "arrived": 61,
+    "violations": 19,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.258363986348883
+  },
+  "SRCBF|zero_command": {
+    "n": 80,
+    "arrived": 74,
+    "violations": 6,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.031843528547092714
+  },
+  "SRCBF|outward_escape": {
+    "n": 80,
+    "arrived": 80,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.015068844623661204
+  },
+  "CAP|hold_previous": {
+    "n": 80,
+    "arrived": 61,
+    "violations": 19,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.3986660756308273
+  },
+  "CAP|zero_command": {
+    "n": 80,
+    "arrived": 72,
+    "violations": 8,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": -0.04981558909441297
+  },
+  "CAP|outward_escape": {
+    "n": 80,
+    "arrived": 80,
+    "violations": 0,
+    "infeasible": 0,
+    "timeouts": 0,
+    "worst_clearance": 0.005001715973603105
+  }
+}
